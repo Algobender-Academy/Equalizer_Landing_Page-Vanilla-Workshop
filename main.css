@@ -460,6 +460,30 @@ a:any-link {
     width: 400px;
   }
 
+  .equalizer-premium__cta-button--ios:hover,
+  .equalizer-premium__cta-button--ios:focus-visible {
+    background-color: var(--CYAN);
+    color: var(--SLATE);
+    transition: all 0.2s ease;
+  }
+
+  .equalizer-premium__cta-button--ios:hover .button-icon-org,
+  .equalizer-premium__cta-button--ios:focus-visible .button-icon-org {
+    display: none;
+  }
+
+  .equalizer-premium__cta-button--ios:hover .button-icon-hvr,
+  .equalizer-premium__cta-button--ios:focus-visible .button-icon-hvr {
+    display: block;
+    transition: all 0.2s ease;
+  }
+
+  .equalizer-premium__cta-button--android:hover,
+  .equalizer-premium__cta-button--android:focus-visible {
+    background-color: var(--YELLOW);
+    transition: all 0.2s ease;
+  }
+
   /* || EQUALIZER-FOOTER */
   .equalizer-footer {
     padding: 4rem 5rem 5rem;
@@ -478,5 +502,16 @@ a:any-link {
 
   .equalizer-footer__copyright-text {
     max-width: 560px;
+  }
+
+  .equalizer-footer__social-icon:hover .social-icon-org,
+  .equalizer-footer__social-icon:focus-visible .social-icon-org {
+    display: none;
+  }
+
+  .equalizer-footer__social-icon:hover .social-icon-hvr,
+  .equalizer-footer__social-icon:focus-visible .social-icon-hvr {
+    display: block;
+    transition: all 0.2s ease;
   }
 }
