@@ -212,7 +212,7 @@ a:any-link {
 }
 
 .equalizer-premium__cta-button {
-  width: 100%;
+  width: 335px;
   height: 64px;
   background-color: var(--SLATE);
   color: var(--WHITE);
@@ -223,6 +223,12 @@ a:any-link {
   align-items: center;
   gap: 0.5rem;
   font: var(--TEXT-PRESET-6-DSK);
+}
+
+@media screen and (max-width: 320px) {
+  .equalizer-premium__cta-button {
+    width: 100%;
+  }
 }
 
 .equalizer-premium__cta-button--android {
