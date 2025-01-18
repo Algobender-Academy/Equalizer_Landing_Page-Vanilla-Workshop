@@ -212,7 +212,7 @@ a:any-link {
 }
 
 .equalizer-premium__cta-button {
-  width: 335px;
+  width: 100%;
   height: 64px;
   background-color: var(--SLATE);
   color: var(--WHITE);
